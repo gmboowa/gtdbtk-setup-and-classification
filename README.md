@@ -47,7 +47,9 @@ mv gtdbtk_data release226
 ```
 
 Expected structure:
+
 ---
+```bash
 
 ~/gtdbtk_db/release226/
 ├── fastani/
@@ -56,7 +58,7 @@ Expected structure:
 ├── msa/
 ├── pplacer/
 ├── radii/
-├── taxonomy/
+└── taxonomy/
 
 ---
 

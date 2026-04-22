@@ -34,7 +34,7 @@ gtdbtk-setup-and-classification/
 mkdir -p ~/gtdbtk_db
 cd ~/gtdbtk_db
 
-wget (https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/auxillary_files/gtdbtk_package/full_package/gtdbtk_data.tar.gz)
+wget https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/auxillary_files/gtdbtk_package/full_package/gtdbtk_data.tar.gz
 ```
 
 ---
@@ -47,6 +47,7 @@ mv gtdbtk_data release226
 ```
 
 Expected structure:
+---
 
 ~/gtdbtk_db/release226/
 ├── fastani/
@@ -89,7 +90,7 @@ gtdbtk check_install
 ```bash
 
 
-bash scripts/run_gtdbtk_fork_and_make_table_v3.sh example_data/genomes output/
+bash scripts/run_gtdbtk_fork_and_make_table_v3.sh  example_data/genomes  output/
 ```
 
 ---

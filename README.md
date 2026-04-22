@@ -48,7 +48,7 @@ mv gtdbtk_data release226
 
 Expected structure:
 
----
+
 ```bash
 
 ~/gtdbtk_db/release226/
@@ -59,8 +59,9 @@ Expected structure:
 ├── pplacer/
 ├── radii/
 └── taxonomy/
+```
 
----
+
 
 ### 3. Set Environment Variable
 

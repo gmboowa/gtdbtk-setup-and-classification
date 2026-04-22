@@ -11,6 +11,8 @@ This repository provides a complete, reproducible workflow for:
 
 ### Repository Structure
 
+```bash
+
 gtdbtk-setup-and-classification/
 │
 ├── scripts/
@@ -23,7 +25,7 @@ gtdbtk-setup-and-classification/
 │   └── gtdbtk_summary_table.tsv
 │
 └── README.md
-
+```
 ---
 
 ### 1. Download the GTDB-Tk Database

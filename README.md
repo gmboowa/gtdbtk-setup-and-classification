@@ -29,11 +29,13 @@ gtdbtk-setup-and-classification/
 ---
 
 ### 1. Download the GTDB-Tk Database
+```bash
 
 mkdir -p ~/gtdbtk_db
 cd ~/gtdbtk_db
 
-wget https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/auxillary_files/gtdbtk_package/full_package/gtdbtk_data.tar.gz
+wget (https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/auxillary_files/gtdbtk_package/full_package/gtdbtk_data.tar.gz)
+```
 
 ---
 

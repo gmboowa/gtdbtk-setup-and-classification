@@ -40,9 +40,11 @@ wget (https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/auxillary_file
 ---
 
 ### 2. Extract the Database
+```bash
 
 tar -xvzf gtdbtk_data.tar.gz
 mv gtdbtk_data release226
+```
 
 Expected structure:
 
@@ -60,23 +62,35 @@ Expected structure:
 ### 3. Set Environment Variable
 
 Temporary:
+```bash
 export GTDBTK_DATA_PATH=~/gtdbtk_db/release226
+```
 
 Permanent:
+```bash
 echo 'export GTDBTK_DATA_PATH=~/gtdbtk_db/release226' >> ~/.zshrc
 source ~/.zshrc
+```
 
 ---
 
 ### 4. Verify Installation
+```bash
+
 
 gtdbtk check_install
+```
+
 
 ---
 
 ### 5. Run the Pipeline
 
+```bash
+
+
 bash scripts/run_gtdbtk_fork_and_make_table_v3.sh example_data/genomes output/
+```
 
 ---
 
@@ -101,8 +115,6 @@ This pipeline enables:
 ---
 
 
----
-
-# 📄 License
+### License
 
 MIT License

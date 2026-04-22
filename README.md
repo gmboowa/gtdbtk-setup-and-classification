@@ -1,5 +1,9 @@
 ## GTDB-Tk Setup and Genome Classification Pipeline
 
+This repository provides a complete, reproducible workflow for installing, configuring, and running GTDB-Tk for microbial genome classification. It includes instructions for downloading and preparing the GTDB reference database, validating the installation, classifying genome assemblies, and generating a clean, publication-ready summary table.
+
+The repository is intended for researchers and bioinformaticians who need a simple and reliable workflow for genome taxonomic assignment using GTDB-Tk. Example input data, output files, and a ready-to-run shell script are included to support quick setup and reproducible analysis.
+
 This repository provides a complete, reproducible workflow for:
 
 - Installing and configuring GTDB-Tk

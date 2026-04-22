@@ -1,4 +1,4 @@
-# 🧬 GTDB-Tk Setup and Genome Classification Pipeline
+## GTDB-Tk Setup and Genome Classification Pipeline
 
 This repository provides a complete, reproducible workflow for:
 
@@ -9,7 +9,7 @@ This repository provides a complete, reproducible workflow for:
 
 ---
 
-## 📦 Repository Structure
+### Repository Structure
 
 gtdbtk-setup-and-classification/
 │
@@ -26,7 +26,7 @@ gtdbtk-setup-and-classification/
 
 ---
 
-# 📥 1. Download the GTDB-Tk Database
+### 1. Download the GTDB-Tk Database
 
 mkdir -p ~/gtdbtk_db
 cd ~/gtdbtk_db
@@ -35,7 +35,7 @@ wget https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/auxillary_files
 
 ---
 
-# 📦 2. Extract the Database
+### 2. Extract the Database
 
 tar -xvzf gtdbtk_data.tar.gz
 mv gtdbtk_data release226
@@ -53,7 +53,7 @@ Expected structure:
 
 ---
 
-# 📍 3. Set Environment Variable
+### 3. Set Environment Variable
 
 Temporary:
 export GTDBTK_DATA_PATH=~/gtdbtk_db/release226
@@ -64,19 +64,19 @@ source ~/.zshrc
 
 ---
 
-# 🔍 4. Verify Installation
+### 4. Verify Installation
 
 gtdbtk check_install
 
 ---
 
-# ⚙️ 5. Run the Pipeline
+### 5. Run the Pipeline
 
 bash scripts/run_gtdbtk_fork_and_make_table_v3.sh example_data/genomes output/
 
 ---
 
-# 📊 6. Example Output Table
+### 6. Example Output Table
 
 | Sample ID | Species | Genus | Closest Reference | ANI (%) | Alignment Fraction | Classification Method |
 |----------|--------|-------|-------------------|--------|-------------------|----------------------|
@@ -86,7 +86,7 @@ bash scripts/run_gtdbtk_fork_and_make_table_v3.sh example_data/genomes output/
 
 ---
 
-# 🚀 Summary
+### Summary
 
 This pipeline enables:
 
@@ -96,9 +96,6 @@ This pipeline enables:
 
 ---
 
-# 👨‍🔬 Author
-
-Gerald Mboowa  
 
 ---
 

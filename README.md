@@ -36,6 +36,8 @@ cd ~/gtdbtk_db
 
 wget https://data.ace.uq.edu.au/public/gtdb/data/releases/latest/auxillary_files/gtdbtk_package/full_package/gtdbtk_data.tar.gz
 ```
+Ensure sufficient disk space
+•	GTDB r226 ≈ ~120–150 GB 
 
 ---
 
